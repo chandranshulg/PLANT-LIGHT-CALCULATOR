@@ -1,4 +1,4 @@
-# Indoor Plant Placement Tool
+# Indoor Light Calculator
 
 This is a Flask web application that helps users determine the best indoor plants for their space based on the orientation of their windows.
 
