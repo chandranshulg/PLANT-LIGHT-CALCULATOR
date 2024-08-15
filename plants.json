@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Cactus",
+    "sunlight": "Full Sun",
+    "watering": "Every 2 weeks"
+  },
+  {
+    "name": "Fern",
+    "sunlight": "Indirect Sunlight",
+    "watering": "2-3 times a week"
+  },
+  {
+    "name": "Orchid",
+    "sunlight": "Indirect Light",
+    "watering": "Once a week"
+  },
+  {
+    "name": "Succulent",
+    "sunlight": "Bright Sunlight",
+    "watering": "Every 10 days"
+  },
+  {
+    "name": "Rose",
+    "sunlight": "6 hours of sunlight daily",
+    "watering": "Daily"
+  }
+]
