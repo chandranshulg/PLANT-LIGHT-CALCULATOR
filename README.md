@@ -49,8 +49,7 @@ plant-sunlight-project/
 ├── templates/
 │   └── index.html             # HTML template for the web application
 │
-├── data/
-│   └── plants.json            # JSON file containing plant data and sunlight requirements
+├──  plants.json            # JSON file containing plant data and sunlight requirements
 │
 └── README.md                  # Documentation file (this file)
 
