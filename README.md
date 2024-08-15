@@ -9,28 +9,7 @@ This is a Flask web application that helps users determine the best indoor plant
 - Displays plant name, sunlight requirements, and a brief description.
 
 
-## Project Structure
-
-```plaintext
-plant-sunlight-project/
-│
-├── app.py                     # Main Flask application file
-├── static/
-│   ├── css/
-│   │   └── styles.css         # Custom CSS styles
-│   └── images/                # Directory for plant images and other static files
-│
-├── templates/
-│   └── index.html             # HTML template for the web application
-│
-├── data/
-│   └── plants.json            # JSON file containing plant data and sunlight requirements
-│
-└── README.md                  # Documentation file (this file)
-
-
-
-## Usage
+  ## Usage
 
 1. **Run the Flask app:**
 
@@ -54,3 +33,24 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Inspired by the need for optimal plant care based on light conditions.
 Plant information was taken from various gardening resources.
+
+
+## Project Structure
+
+```plaintext
+plant-sunlight-project/
+│
+├── app.py                     # Main Flask application file
+├── static/
+│   ├── css/
+│   │   └── styles.css         # Custom CSS styles
+│   └── images/                # Directory for plant images and other static files
+│
+├── templates/
+│   └── index.html             # HTML template for the web application
+│
+├── data/
+│   └── plants.json            # JSON file containing plant data and sunlight requirements
+│
+└── README.md                  # Documentation file (this file)
+
