@@ -1,17 +1,11 @@
+import json
 from flask import Flask, render_template_string, request
 
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'
 
-# Sample data for plants and their sunlight needs
-plants_data = {
-    'Snake Plant': {'sunlight': 'Low to Medium', 'description': 'Thrives in indirect sunlight and is very low-maintenance.'},
-    'Spider Plant': {'sunlight': 'Medium to Bright', 'description': 'Grows well in bright, indirect light, but can tolerate lower light levels.'},
-    'Aloe Vera': {'sunlight': 'Bright to Full Sun', 'description': 'Prefers bright, sunny spots, ideal for a south-facing window.'},
-    'Peace Lily': {'sunlight': 'Low to Medium', 'description': 'Prefers low to medium light, perfect for shaded areas.'},
-    'Fiddle Leaf Fig': {'sunlight': 'Bright, Indirect', 'description': 'Thrives in bright, indirect light, avoid direct sunlight to prevent leaf burn.'},
-}
-
+# Load plant data from JSON file
+with open('plants.json') as f:
+    plants_data = json.load(f)
 # HTML template
 html_template = '''
 <!DOCTYPE html>
