@@ -11,11 +11,15 @@ This is a Flask web application that helps users determine the best indoor plant
 ## Project Structure
 
 ├── app.py # Main Flask application
+
 ├── templates
 │ └── index.html # HTML template for the web page (in case of separate template file)
+
 ├── static
 │ └── style.css # CSS file for styling (if used)
+
 ├── README.md # Project documentation
+
 └── requirements.txt # List of dependencies
 
 
